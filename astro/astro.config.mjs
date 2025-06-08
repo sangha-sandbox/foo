@@ -18,8 +18,8 @@ export default defineConfig({
             {
               label: 'À propos',
               items: [
-                { slug: 'fr/about-this-blog' },
-                { slug: 'fr/migrate-to-astro' },
+                { slug: 'foo/fr/about-this-blog' },
+                { slug: 'foo/fr/migrate-to-astro' },
               ],
             },
           ],
@@ -32,9 +32,9 @@ export default defineConfig({
             {
               label: 'About',
               items: [
-                { slug: 'en/about-this-blog' },
-                { slug: 'en/migrate-to-astro' },
-                { slug: 'en/assess-documentation-quality' },
+                { slug: 'foo/en/about-this-blog' },
+                { slug: 'foo/en/migrate-to-astro' },
+                { slug: 'foo/en/assess-documentation-quality' },
               ],
             },
           ],
